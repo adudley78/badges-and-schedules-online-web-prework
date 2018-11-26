@@ -25,6 +25,4 @@ def printer(badges_and_room_assignments)
     room_assignments.each do | room_assignments_to_print |
       puts room_assignments_to_print
     end
-  #.each_with_index.map do | badges_and_room_assignments |
-  #puts badges_and_room_assignments
-end
+  end
