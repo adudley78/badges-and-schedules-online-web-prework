@@ -18,7 +18,9 @@ end
 
 def printer(badges_and_room_assignments)
   batch_badge_creator(badges)
-    puts badges
+    badges.each do | badges_to_print |
+      puts badges_to_print
+    end
   assign_rooms(room_assignments)
 
   #.each_with_index.map do | badges_and_room_assignments |
