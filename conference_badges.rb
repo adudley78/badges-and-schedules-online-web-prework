@@ -19,8 +19,7 @@ end
 def printer(badges_and_room_assignments)
   batch_badge_creator(attendees)
   assign_rooms(room_assignments)
-  
+
   #.each_with_index.map do | badges_and_room_assignments |
   #puts badges_and_room_assignments
-  end
 end
