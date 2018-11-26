@@ -20,9 +20,9 @@ def printer(badges_and_room_assignments)
   batch_badge_creator(badges)
     badges.each do | badges_to_print |
       puts badges_to_print
-    end
+      end
   assign_rooms(room_assignments)
-    room_assignments.each do | room_assignments_to_print |
+      room_assignments.each do | room_assignments_to_print |
       puts room_assignments_to_print
     end
-  end
+end
