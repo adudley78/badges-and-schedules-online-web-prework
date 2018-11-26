@@ -24,5 +24,5 @@ def printer(badges_and_room_assignments)
   assign_rooms(room_assignments)
       room_assignments.each do | room_assignments_to_print |
       puts room_assignments_to_print
-    end
+      end
 end
